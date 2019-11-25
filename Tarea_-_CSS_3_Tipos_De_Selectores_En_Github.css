@@ -1,0 +1,13 @@
+/* selector of a tag */
+h1 {background-color:pink}
+
+
+/* selector of a path */
+section > p {background-color:green}
+
+
+/* selector of descendant */
+p i {background-color:cyan}
+
+/* "p i" rule overrode "section > p" rule.
+"p" is a block element so the rest of block remained green while inline element "i" has changed color to cyan */
