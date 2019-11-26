@@ -11,3 +11,6 @@ p i {background-color:cyan}
 
 /* "p i" rule overrode "section > p" rule.
 "p" is a block element so the rest of block remained green while inline element "i" has changed color to cyan */
+
+/* EXTRA: selector of ID */
+#pj_mg {background-color:purple}
