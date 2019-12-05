@@ -1,0 +1,36 @@
+
+
+body {
+
+	font-family: "Calibri", cursive, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.2em;
+	}
+
+header { 
+
+font-family: "Shadows Into Light", Arial, sans-serif;
+font-style: italic;
+
+ }
+
+
+p {
+	font-family: "Calibri", Arial, sans-serif;
+	font-weight: 800;
+	
+}
+
+.get_pizza {
+
+font-family: "Shadows Into Light", Arial, sans-serif;
+font-weight: normal;
+font-size: 2em;
+
+
+  }
+  .food_italic {
+	font-style:normal;
+	font-weight: normal;
+  	  }
+

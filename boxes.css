@@ -1,0 +1,80 @@
+
+header {
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 5px;
+  height: 150px; 
+  border-radius: 0px 0px 15px 15px; 
+
+  }
+
+h1 { 
+  text-align: center;
+}
+
+h2 { margin-left: 5%;
+}
+
+
+section {
+  margin-left: 30%;
+  margin-right: 30%;
+   border: 1px solid #999999;
+
+ }
+
+ div {
+ 	text-align: center;
+ }
+
+
+ .base, .ingredients, .allergy, .kind, 
+ .get_pizza,  
+ { 
+ 	text-align: center;
+	  margin-left: 30%;
+  	margin-right: 30%;
+  	border-radius: 3px 3px 3px 3px;
+  	padding: 5px; 
+}
+
+.empty_box 
+ { 
+ 	 	border-radius: 3px 3px 3px 3px;
+  	padding-left: 200px; 
+  	margin-left: 5px;
+  	width: 50px;
+}
+
+.thin {padding: 10px; }
+
+#pizza_image {
+	transform: scale(0.50, 0.50);
+	text-align: center;
+
+}
+
+#pizza_big {padding-top: 5px;}
+
+.base, .kind, .allergy { margin: 0px; }
+
+.food_italic {
+	text-align: center;
+	  margin-left: 30%;
+  	margin-right: 30%;
+  	border-radius: 3px 3px 3px 3px;
+  	padding-right: 50px; }
+
+#white_field {
+	background-color: white;
+	height: 0.5em;
+	 margin-left: 3%;
+  	margin-right: 30%;
+
+  	border: 5px solid, grey;
+  	padding: 5px; 
+}
+
+ 
+
+

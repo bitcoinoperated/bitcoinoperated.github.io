@@ -1,0 +1,35 @@
+
+
+
+header { 
+
+background-color: black;
+color: white;
+box-shadow: 0px 5px 0px #b3b3b3;
+
+ }
+
+
+section { 
+background-color: #b3b3b3;
+box-shadow: 0px 0px 5px #737373; 
+color: white;
+}
+
+
+ .base, .ingredients, .allergy, .kind, 
+ .get_pizza, .food_italic, .get_pizza, .empty_box  {
+
+	background-color: #737373;
+		box-shadow: 1px 1px 5px #595959; 
+
+}
+
+.thin {background: linear-gradient(to top right, grey, black) ;
+
+				box-shadow: 1px 1px 5px #595959; 
+
+
+
+}
+
