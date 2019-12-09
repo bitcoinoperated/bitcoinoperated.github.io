@@ -509,10 +509,10 @@ box-shadow: 12px 12px 2px 1px #666666; }
 Los títulos que si se encuentran en columnes deben de
 tener sombra en el texto */
 
-a { color: hsl ( 330 100% 50% );
+a { color: red ;
 } 
  
-href {color: hsl ( 70 100% 50% );
+href { color: hsl ( 70 100% 50% );
     }   
     
     
