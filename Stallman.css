@@ -512,7 +512,7 @@ tener sombra en el texto */
 a { color: hsl ( 330 100% 50% );
 } 
  
-href {color: hsl { 70 100% 50% );
+a > href {color: hsl { 70 100% 50% );
     }   
     
     
