@@ -1,36 +1,75 @@
+@font-face {
+    font-family: calluna;
+    src: url(https://use.typekit.net/af/32f92a/000000000000000000014869/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/32f92a/000000000000000000014869/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/32f92a/000000000000000000014869/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: calluna;
+    src: url(https://use.typekit.net/af/fb816c/00000000000000000001486a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"), url(https://use.typekit.net/af/fb816c/00000000000000000001486a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"), url(https://use.typekit.net/af/fb816c/00000000000000000001486a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: calluna;
+    src: url(https://use.typekit.net/af/bccc98/000000000000000000014868/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/bccc98/000000000000000000014868/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/bccc98/000000000000000000014868/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+
 
 
 body {
 
-	font-family: "Calibri", cursive, Arial, sans-serif;
-	font-style: italic;
-	font-size: 1.2em;
-	}
-
-header { 
-
-font-family: "Shadows Into Light", Arial, sans-serif;
-font-style: italic;
-
- }
-
-
-p {
-	font-family: "Calibri", Arial, sans-serif;
-	font-weight: 800;
-	
+    font-family: "calluna", "Times New Roman", Serif;
+    font-weight: 300;
+    text-align: center;
 }
 
-.get_pizza {
-
-font-family: "Shadows Into Light", Arial, sans-serif;
-font-weight: normal;
-font-size: 2em;
+.nav {
+    font-size: 30px;
+}
 
 
-  }
-  .food_italic {
-	font-style:normal;
-	font-weight: normal;
-  	  }
+#visible_menu a, .close_menu a {font-size: 40px;}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 45px;
+    
+
+}
+
+
+
+
+h3 {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+    text-align: left;
+
+}
+
+h4 {
+    font-size: 25px;
+    line-height: 45px;
+    font-weight: 300;
+
+}
+
+.go_to_top  
+{
+    font-size: 20px;
+}
+
+.footer_details {
+    font-size: 20px;
+}
 
