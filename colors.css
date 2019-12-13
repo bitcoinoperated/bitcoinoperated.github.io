@@ -1,47 +1,37 @@
-
 /*
-
 { color: hsla(236, 44%, 24%, 1); }
 { color: hsla(236, 36%, 47%, 1); }
 { color: hsla(202, 66%, 27%, 1); }
 { color: hsla(202, 42%, 56%, 1); }
 { color: hsla(180, 58%, 63%, 1); }
-
 */
-
 :root{
-	--blue-light: hsla(202, 42%, 56%, 1);
-	--cyan-light: hsla(180, 58%, 63%, 1) ;
-	--deep-blue: hsla(202, 66%, 27%, 1);
+--blue-light: hsla(202, 42%, 56%, 1);
+--cyan-light: hsla(180, 58%, 63%, 1);
+--deep-blue: hsla(202, 66%, 27%, 1);
+--deep-pink: hsla(315, 100%, 25%, 1);
+--dark-blue: hsla(316, 100%, 15%, 1);
 
 }
-
 
 html {
-	background-color: var(--blue-light);
+background: linear-gradient(to top right, var(--deep-pink), var(--deep-blue), var(--cyan-light), var(--blue-light));
 }
+footer {
+background-color: var(--dark-blue);
 
-footer { 
 
-	background-color: var(--deep-blue);
-		
-	
 }
-
 #visible_menu a, .close_menu a {
-
-	color: white;
+color: white;
 }
-
 .nav, .nav a  {
-		color: white;
-	
-}
+color: white;
 
+}
 .go_to_top a {
-	color: white;
+color: white;
 }
-
 figure a {
-	color: white;
+color: white;
 }
