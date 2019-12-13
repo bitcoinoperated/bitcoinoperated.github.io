@@ -12,9 +12,6 @@ header {
 	position: relative;
 }
 
-.centered{
-	text-align: 
-}
 
 .header_logo {
 	border: 0;
@@ -126,8 +123,8 @@ h4 {
 } 
 
 .budd_e_image img, .fluff_e_image img, .wagg_e_showroom img  {
-	height: 258px;
-	width: 602px;
+	height: 257px;
+	width: 601px;
 	border: 1px solid;
 }
 
