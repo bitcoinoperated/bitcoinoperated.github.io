@@ -100,8 +100,9 @@ ul {
 	margin-left: 60px;
     margin-bottom: 50px;
 }
-		
+	
 
+		
 h4 {
 	margin-bottom: 18px;
 }
@@ -122,8 +123,8 @@ h4 {
 }
 
 .e_mail_link img {
-	height: 21px;
-	width: 21px;
+	height: 42px;
+	width: 42px;
 } 
 
 .budd_e_image img, .fluff_e_image img, .wagg_e_showroom img  {
@@ -141,14 +142,15 @@ h4 {
 
 
 footer { 
-	border-top: 3px solid; 
+	border-top: 0.1rem solid; 
 }
 
-.footer_details { 
-	padding-bottom: 20px;
+
+ footer #Top {
+   margin-top: 1rem;
 }
 
-.go_to_top  
-{
-    font-size: 20px;
+footer .footer_details { 
+	padding-bottom: 3rem;
 }
+
