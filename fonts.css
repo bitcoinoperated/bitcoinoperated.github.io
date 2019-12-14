@@ -29,45 +29,43 @@ body {
 }
 
 .nav {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
-
-#visible_menu a, .close_menu a {font-size: 40px;}
 
 a{
     text-decoration: none;
 }
 
 h1 {
-    font-size: 50px;
-    line-height: 45px;
+    font-size: 3rem;
+    line-height: 3rem;
     
 }
 
 
 
 .hpage_intro p {
-    font-size: 35px;
+    font-size: 1.5rem;
     font-weight: 300;
-    line-height: 45px;
+    line-height: 2rem;
     text-align: left;
 
 }
 
 h4 {
-    font-size: 25px;
-    line-height: 45px;
+    font-size: 2rem;
+    line-height: 2rem;
     font-weight: 300;
 
 }
 
-.go_to_top  
-{
-    font-size: 20px;
+footer .go_to_top  a {
+    font-size: 1.5rem;
+
 }
 
 .footer_details {
-    font-size: 20px;
+    font-size: 2rem;
 }
 
