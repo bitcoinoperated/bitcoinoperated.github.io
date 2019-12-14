@@ -1,73 +1,154 @@
-@font-face {
-    font-family: calluna;
-    src: url(https://use.typekit.net/af/32f92a/000000000000000000014869/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff2"), url(https://use.typekit.net/af/32f92a/000000000000000000014869/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("woff"), url(https://use.typekit.net/af/32f92a/000000000000000000014869/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3) format("opentype");
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: calluna;
-    src: url(https://use.typekit.net/af/fb816c/00000000000000000001486a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"), url(https://use.typekit.net/af/fb816c/00000000000000000001486a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"), url(https://use.typekit.net/af/fb816c/00000000000000000001486a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: calluna;
-    src: url(https://use.typekit.net/af/bccc98/000000000000000000014868/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff2"), url(https://use.typekit.net/af/bccc98/000000000000000000014868/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("woff"), url(https://use.typekit.net/af/bccc98/000000000000000000014868/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3) format("opentype");
-    font-weight: 300;
-    font-style: normal;
-}
-
 
 
 body {
-
-    font-family: "calluna", "Times New Roman", Serif;
-    font-weight: 300;
-    text-align: center;
-}
-
-.nav {
-    font-size: 30px;
+	margin: 0;
 }
 
 
-#visible_menu a, .close_menu a {font-size: 40px;}
-
-a{
-    text-decoration: none;
-}
-
-h1 {
-    font-size: 50px;
-    line-height: 45px;
-    
+header {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
 }
 
 
+.header_logo {
+	border: 0;
+	bottom: 40%;
+	left: 42%; 
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
 
-.hpage_intro p {
-    font-size: 35px;
-    font-weight: 300;
-    line-height: 45px;
-    text-align: left;
+.logo_logo{
+	height: 40vh;
+	width: auto;
+}
+
+
+
+#nav_menu+nav { 
+	background: linear-gradient(to right top, var(--deep-blue), var(--blue-light), var(--cyan-light));
+	padding-bottom: 10px;
+	padding-top: 10px;  
+
+	height:0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+#nav_menu:hover+nav,#nav_menu+nav:hover { 
+	visibility: visible;
+	height: auto;
+	overflow: visible;
+}
+
+
+.nav ul, .nav_footer ul{
+	list-style-type: none;
 
 }
+
+
+.hpage_intro, .biography {
+	border: 0;
+	margin: 0;
+	padding: 0;
+
+}
+
+header img.hd-img { 
+	border: 0;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width:100%;	
+}
+
+.hpage_intro {
+	width: 100%;
+}
+
+
+.navigation_menu_footer {
+	border: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+ul { 
+
+	display: flex;
+	height: 30px;
+	justify-content: center;
+	text-align: center;
+}
+
+.biography {
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+
+.hpage_intro p { 
+	
+	width: 50%;
+	margin-left: 60px;
+    margin-bottom: 50px;
+}
+		
 
 h4 {
-    font-size: 25px;
-    line-height: 45px;
-    font-weight: 300;
+	margin-bottom: 18px;
+}
 
+.nav_footer li {
+
+	border: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px; 
+}
+
+.go_to_top {
+	border: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 10px; 
+}
+
+.e_mail_link img {
+	height: 21px;
+	width: 21px;
+} 
+
+.budd_e_image img, .fluff_e_image img, .wagg_e_showroom img  {
+	height: 257px;
+	width: 601px;
+	border: 1px solid;
+}
+
+.tabb_e_image img {
+	height: 257px;
+	width: 602px;
+	border-bottom: 1px solid;
+}
+
+
+
+footer { 
+	border-top: 3px solid; 
+}
+
+.footer_details { 
+	padding-bottom: 20px;
 }
 
 .go_to_top  
 {
     font-size: 20px;
 }
-
-.footer_details {
-    font-size: 20px;
-}
-
