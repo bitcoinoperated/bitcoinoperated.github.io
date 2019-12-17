@@ -5,12 +5,109 @@ body {
 }
 
 
+/* Pixel 2 XL */
+@media (max-width: 412px)
+
+{
+img.header_image_logo, 	{ 
+		width: 50%;
+		
+	}
+
+	.tabb_e_image.tabb_fig img, .fluff_e_image.fluff_fig img, 
+	.budd_e_image.budd_fig img, .wagg_e_image.wagg_fig img 
+	{ 
+		width: 100%;
+		
+	}
+
+	 img.logo_logo {
+		width: 35%;
+		height: 35%;
+		position: relative;
+		padding-right: 60%;
+
+		
+								
+	
+	}
+
+	nav.nav_footer li 
+	{
+
+		margin: 0;
+		border: 0;
+		padding: 3vw;
+	}
+	div.footer_details{
+		margin: 0;
+		border: 0;
+		padding: 2px;
+	}
+
+
+}
+}
+	/* iPhone 5 */
+	@media (max-width: 321px)
+	
+{
+img.header_image_logo, 	{ 
+		width: 50%;
+		
+	}
+
+	.tabb_e_image.tabb_fig img, .fluff_e_image.fluff_fig img, 
+	.budd_e_image.budd_fig img, .wagg_e_image.wagg_fig img 
+	{ 
+		padding: 0;
+		margin: 0;
+
+	}
+
+			img.logo_logo 
+		{
+		width: 40%;
+		height: 40%;
+		position: relative;
+		padding-right: 60%;
+	
+		}
+		nav.nav_footer li
+	{
+		margin: 0;
+		border: 0;
+		padding: 0;
+			}
+
+
+			.unli {
+				margin: 0;
+		border: 0;
+		padding: 0;
+			}
+			div.footer_details{
+		margin: 0;
+		border: 0;
+		
+	}
+
+
+	 
+
+		
+		}
+
+
 header {
 	border: 0;
 	margin: 0;
 	padding: 0;
 	position: relative;
 }
+
+
+
 
 
 .header_logo {
@@ -46,7 +143,7 @@ header {
 }
 
 
-.nav ul, .nav_footer ulc{
+.nav ul, .nav_footer ul{
 	list-style-type: none;
 
 }
@@ -133,7 +230,7 @@ h4 {
 	width: 42px;
 } 
 
-.budd_e_image img, .fluff_e_image img, .wagg_e_showroom img  {
+.budd_e_image img, .fluff_e_image img, .wagg_e_image img  {
 	height: 257px;
 	width: 601px;
 	border: 1px solid;
