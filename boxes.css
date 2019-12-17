@@ -25,11 +25,13 @@ img.header_image_logo, 	{
 		width: 35%;
 		height: 35%;
 		position: relative;
-		padding-right: 60%;
-
-		
-								
+	padding-right: 60%;		
 	
+	}
+
+	.nav ul
+	{
+		font-size: 4vw;
 	}
 
 	nav.nav_footer li 
@@ -73,6 +75,12 @@ img.header_image_logo, 	{
 		padding-right: 60%;
 	
 		}
+
+		.nav ul
+	{
+		font-size: 3.5vw;
+	}
+
 		nav.nav_footer li
 	{
 		margin: 0;
