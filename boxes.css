@@ -6,10 +6,13 @@ body {
 
 
 /* Pixel 2 XL */
-@media (max-width: 412px)
+@media (max-width: 414px)
 
 {
-img.header_image_logo, 	{ 
+
+	
+img.header_image_logo, 	{
+position: relative; 
 		width: 50%;
 		
 	}
@@ -49,9 +52,9 @@ img.header_image_logo, 	{
 
 
 }
-}
+
 	/* iPhone 5 */
-	@media (max-width: 321px)
+	@media (max-width: 375px)
 	
 {
 img.header_image_logo, 	{ 
@@ -113,8 +116,6 @@ header {
 	padding: 0;
 	position: relative;
 }
-
-
 
 
 
